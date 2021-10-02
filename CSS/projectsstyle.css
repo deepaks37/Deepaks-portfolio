@@ -1,0 +1,83 @@
+.projects-h1{
+    text-align: center;
+    color: var(--third-color);
+    font-family: 'Sarabun', sans-serif
+}
+
+.p-cards-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 8em;
+}
+
+@media only screen and (max-width: 600px){
+    .p-cards-container{
+        flex-direction: column;
+        width: 80%;
+    }
+}
+
+.p-cards-container .cards{
+    width: 20%;
+    padding: 2em;
+    background-color: #112240;
+    border-radius: 10px;
+    font-family: 'Sarabun', sans-serif
+}
+
+@media only screen and (max-width: 600px){
+    .p-cards-container .cards{
+        width: 80%;
+        padding: 2em;
+        margin-top: 3em;
+    }
+}
+
+.p-link-primary{
+    padding: .5rem;
+    text-decoration: none;
+    background-color: var(--third-color);
+    border-radius: .5rem;
+    color: var(--secondary-color);
+}
+
+
+
+.p-link-primary:hover{
+    color: var(--third-color);
+    background-color: var(--primary-color);
+    border: 2px solid var(--third-color)
+}
+
+.p-link-secondary{
+    padding: .5rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    color: var(--third-color);
+    background-color: var(--primary-color);
+    border: 2px solid var(--third-color)
+}
+
+
+
+.p-link-secondary:hover{
+    background-color: var(--third-color);
+    color: var(--secondary-color);
+}
+
+
+.link-div{
+    display: flex;
+}
+
+@media only screen and (max-width: 600px){
+    .link-div{
+        flex-direction: column;
+    }
+}
+
+.link-button{
+    margin: 2em 1em 0 0;
+}
