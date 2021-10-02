@@ -1,0 +1,12 @@
+body{
+    background-color: var(--primary-color);
+    width: 60%;
+    margin: auto;
+    color: #4B5563;
+}
+h1{
+    color: var(--third-color);
+}
+p{
+    font-size: 1.5rem;
+}

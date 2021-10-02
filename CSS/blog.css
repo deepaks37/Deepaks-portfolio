@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    color: var(--third-color);
+    font-family: 'Sarabun', sans-serif
+}
+.main-b-container{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.child-b-container{
+    width: 100%;
+    padding: 2em 2em;
+    height: 30vh;
+    margin-top: 3em;
+    background-color:  #112240;
+    border-radius: 10px;
+}
+
+.child-b-container p {
+    color: #4B5563;
+    margin: 2em 0;
+}
