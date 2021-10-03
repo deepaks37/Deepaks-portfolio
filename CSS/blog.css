@@ -9,13 +9,30 @@ h1{
     text-align: center;
 }
 
-.child-b-container{
+@media only screen and (max-width: 600px){
+    .main-b-container{
+        width: 95%;
+        margin: auto;
+    }
+}
+
+.main-b-container .child-b-container{
     width: 100%;
     padding: 2em 2em;
     height: 30vh;
     margin-top: 3em;
     background-color:  #112240;
     border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    .main-b-container .child-b-container{
+        width: 80%;
+        margin: auto;
+        margin-top: 3em;
+        padding: 1em 1em;
+        height: auto;
+    }
 }
 
 .child-b-container p {
